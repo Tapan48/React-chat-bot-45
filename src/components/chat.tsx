@@ -22,6 +22,7 @@ export default function Chat() {
       const apiUrl = "https://api.openai.com/v1/chat/completions";
       // Use REACT_APP_ prefix for Create React App
       const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
+      console.log(apiKey);
 
       console.log("API Key:", apiKey); // For debugging
       if (!apiKey) {
